@@ -7,7 +7,7 @@ function App() {
 
     return (
         <div className="App">
-       UCLAX-Web1-Lee-Mariko
+            UCLAX-Web1-Lee-Mariko
         </div>
     );
 }
