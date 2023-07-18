@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Inset = ({ children }) => {
     return <InsetStyled className="Inset">{children}</InsetStyled>;
