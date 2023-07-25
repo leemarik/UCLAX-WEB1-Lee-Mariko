@@ -85,7 +85,32 @@ const Essays = () => {
                 </p>
             </Essay>
             <Essay question="Q3: What is the difference between JQuery and React?">
-                3. This is my answer
+                <p>
+                    jQuery and React are both used in front-end web development,
+                    popular in JavaScript libraries. However, jQuery and React
+                    have different purposes and approaches. jQuery is a “write
+                    less, do more” or “lightweight” JavaScript library, allowing
+                    developers to build web apps easier using JavaScrip. On the
+                    other hand, React is a JavaScript library for building UI or
+                    user interfaces, allowing HTML to be embedded within
+                    JavaScript.
+                </p>
+                <p>
+                    jQuery is known to be relatively easy to learn and has been
+                    widely used in the past. It simplifies complex calls from
+                    JavaScript called AJAX and DOM manipulation. Therefore,
+                    jQuery is made to make shifting from creating traditional
+                    websites to developing dynamic web apps effortlessly.
+                </p>
+                <p>
+                    React was created by Facebook in 2011, known to be an
+                    open-source, declarative, efficient, and flexible JavaScrip
+                    library. Its main purpose has been building interactive UI
+                    elements. As React is relatively new, it has gained great
+                    popularity due to its understandable approach to UI
+                    development and its community. React allows developers to
+                    build a large-scale dynamic web app at their convenience.
+                </p>
             </Essay>
             <Essay question="Q4: What is the difference between a Front-End and Back-End Developer?">
                 4. This is my answer
