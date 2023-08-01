@@ -113,7 +113,51 @@ const Essays = () => {
                 </p>
             </Essay>
             <Essay question="Q4: What is the difference between a Front-End and Back-End Developer?">
-                4. This is my answer
+                <p>
+                    Front-End and Back-End Developer are both essential parts of
+                    web development as all websites require both. However, they
+                    work on different aspects of a website or website
+                    application. Front-end development focuses on the visual
+                    elements of the website, whereas back-end development
+                    consists of the site's structure, system, data, and logic.
+                </p>
+                <p>
+                    Front-End developers are responsible for the visual and
+                    interactive aspects of the website that users directly
+                    interact with. They work on the UI and UX design to make
+                    sure the website is visually appealing, easy to navigate,
+                    and responsive. They build elements such as buttons,
+                    layouts, navigation images, graphics, animation, etc.…
+                    Front-End developers use the language HTML, CSS, and
+                    JavaScript to build and design the 'front-end' of the
+                    website. They also utilize technologies with various
+                    libraries and frameworks like React, Angular, or Vue.js to
+                    improve the interactivity and functionality of the site.
+                </p>
+                <p>
+                    Back-End developers are responsible for the server side of
+                    the web application. They mainly focus on the functionality
+                    and logic that operates behind the scenes and assist the
+                    front end of the website. They work on tasks such as
+                    building code, troubleshooting and debugging web
+                    applications, database management, and framework utilization
+                    to ensure that the website communicates effectively with the
+                    databases and external services. Back-End developers focus
+                    on using server-side programming languages such as Python,
+                    Ruby, Java, Node.js, or PHP to build the core functionality
+                    of the application. They also work on databases such as
+                    MySQL, PostgreSQL, or MongoDB for managing and retrieving
+                    data from the server.
+                </p>
+                <p>
+                    With Front-end developers taking the role of actors and
+                    Back-end developers as the behind-the-scene worker, both
+                    developers play a significant role together in building a
+                    web application.
+                </p>
+            </Essay>
+            <Essay question="Q5: What are the different ways we can link files/resources to our application?">
+                5. This is my answer
             </Essay>
         </EssaysStyled>
     );
