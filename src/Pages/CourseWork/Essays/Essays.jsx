@@ -156,8 +156,80 @@ const Essays = () => {
                     web application.
                 </p>
             </Essay>
-            <Essay question="Q5: What are the different ways we can link files/resources to our application?">
-                5. This is my answer
+            <Essay question="Q5: What are the different ways we can link files/resources to our application? / Edit: What is the difference between Absolute, Root, and Document Relative linking?">
+                <p>
+                    Linking files or resources to our application is a
+                    significant aspect of web development. There are multiple
+                    ways to link files or resources, such as CSS, JavaScript,
+                    images, and other assets. Three common ways in HTML are
+                    Absolute, Root, and Document Relative linking.
+                </p>
+                <p>
+                    Absolute Linking: absolute linking provides the complete URL
+                    path to the resource, including the protocol (HTTP/HTTPS),
+                    domain name, and the whole path to the resource. Absolute
+                    links are independent of the current location of the HTML
+                    file. It can point to resources on different websites or
+                    servers.
+                </p>
+                <p>
+                    Root Linking: root linking involves specifying the path to
+                    the resource relative to the root directory of the site. It
+                    begins with “/” and doesn't include the domain name.
+                </p>
+                <p>
+                    Document Relative Linking: document relative linking
+                    specifies the path to the resource relative to the location
+                    of the current HTML document. This path is often used when
+                    resources are located in the same directory as HTML files or
+                    subdirectories.
+                </p>
+            </Essay>
+            <Essay question="Q6: What is the difference between jpg, gif, png, and svg images?">
+                <p>
+                    JPG, GIF, PNG, and SVG are various image file formats, each
+                    having its own characteristics.
+                </p>
+                <p>
+                    JPG: JPG is known as the Joint Photographic Experts Group.
+                    It is a lossy compression format, reducing its file size by
+                    discarding some image data, which means it can lose the
+                    image quality as a result, especially when the compression
+                    level is too high. JPG supports millions of colors and is
+                    suitable for photos and images with subtle color gradients.
+                </p>
+                <p>
+                    GIF: GIF stands for Graphics Interchange Format, a bitmap
+                    image format that supports both static and animated images.
+                    Gif supports up to 256 colors, making it great for simple
+                    graphics, animations, and images with flat colors. It
+                    displays a sequence of frames to create simple animations.
+                </p>
+                <p>
+                    PNG: Portable Network Graphics or PNG is a file format used
+                    for lossless image compression. PNG almost entirely replaced
+                    the GIF, which was very common. PNG supports millions of
+                    colors and is suitable for images with transparency and
+                    complex color gradients. PNG is commonly used for images
+                    that require transparency, such as logos, graphics, and
+                    images with sharp edges.
+                </p>
+                <p>
+                    SVG: SVG is known as Scalable Vector Graphics. SVG is a
+                    vector-based image format where a set of mathematical
+                    figures represents the image. Therefore, the images are
+                    defined by mathematical equations rather than pixels. SVG is
+                    resolution-independent and can be scaled to any size without
+                    losing quality, making it ideal for logos, icons, and
+                    graphics that need to be scaled to various sizes. However,
+                    it is less suitable for photographs.
+                </p>
+                <Essay
+                    question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.
+"
+                >
+                    <p>Q7. Answers</p>
+                </Essay>
             </Essay>
         </EssaysStyled>
     );
