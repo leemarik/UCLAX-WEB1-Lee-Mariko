@@ -224,12 +224,106 @@ const Essays = () => {
                     graphics that need to be scaled to various sizes. However,
                     it is less suitable for photographs.
                 </p>
-                <Essay
-                    question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.
-"
-                >
-                    <p>Q7. Answers</p>
-                </Essay>
+            </Essay>
+            <Essay question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.">
+                <p>
+                    <b>Product Owner</b>
+                </p>
+                <p>
+                    The product backlog, which is a list of features,
+                    improvements, and fixes that need to be implemented, is
+                    defined and prioritized by the product owner. They serve as
+                    a liaison between stakeholders and the development team,
+                    ensuring that the work aligns with the overall product
+                    vision and corporate objectives. The Product Owner helps to
+                    maximize the value provided by the development team by
+                    deciding what gets worked on next.
+                </p>
+                <p>
+                    <b>Product Manager</b>
+                </p>
+                <p>
+                    The product manager oversees the product's strategic
+                    direction and overall market success. To get feedback,
+                    create the product strategy, and set priorities for
+                    innovations and improvements, they collaborate extensively
+                    with stakeholders. The Product Manager's focus is broader
+                    and includes market analysis, competitive research, and
+                    long-term planning in order to ensure the product's
+                    alignment with corporate objectives, even if there may be
+                    some overlap with the Product Owner's function.
+                </p>
+                <p>
+                    <b>Business Analyst</b>
+                </p>
+                <p>
+                    The business analyst attempts to close the communication gap
+                    between the development team and the stakeholders. They
+                    collect and record user stories, gather requirements, and
+                    make sure everyone on the team is aware of what has to be
+                    produced. Business analysts frequently work with
+                    stakeholders that are both technical and non-technical to
+                    make sure that the development process properly satisfies
+                    business needs.
+                </p>
+                <p>
+                    <b>Scrum Master</b>
+                </p>
+                <p>
+                    The Scrum Master is in charge of directing the Scrum process
+                    and making sure the development team adheres to Agile values
+                    and methods. They assist in removing barriers, encouraging
+                    teamwork, and shielding the group from outside disruptions.
+                    The Scrum Master supports the team's productivity and
+                    self-organization by acting as a coach and facilitator
+                    rather than having direct control over it.
+                </p>
+                <p>
+                    <b>UX Designer</b>
+                </p>
+                <p>
+                    A user's interaction with a product should be enjoyable and
+                    efficient, according to the User Experience (UX) Designer.
+                    They work to make the product intuitive, user-friendly, and
+                    in line with user wants and expectations by designing the
+                    user interface, doing user research, developing wireframes,
+                    and prototyping.
+                </p>
+                <p>
+                    <b>Developer/Engineer</b>
+                </p>
+                <p>
+                    Code authoring and the implementation of the features,
+                    improvements, and fixes outlined in the product backlog are
+                    the responsibilities of developers or engineers. They work
+                    together with other team members to make sure that the
+                    technical solutions meet the specifications and quality
+                    requirements of the product.
+                </p>
+                <p>
+                    <b>AQ/SDET</b>
+                </p>
+                <p>
+                    The task of assuring the quality and dependability of the
+                    program through testing and automation falls to specialists
+                    in quality assurance (QA) or software development engineers
+                    in test (SDET). They try to find and report errors by
+                    writing automated tests, doing manual tests, and creating
+                    test strategies. Their objective is to stop and find flaws
+                    before they affect users.
+                </p>
+                <p>
+                    <b>DevOps</b>
+                </p>
+                <p>
+                    The emphasis of the DevOps methodology is on collaboration
+                    and integration between the development and IT operations
+                    teams. DevOps specialists automate and streamline the
+                    installation, maintenance, and monitoring of software
+                    systems. They want to make software programs more dependable
+                    and efficient while also reducing the length of the
+                    development cycle and raising the frequency of releases.
+                </p>
             </Essay>
         </EssaysStyled>
     );
