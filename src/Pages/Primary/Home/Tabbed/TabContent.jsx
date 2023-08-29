@@ -6,7 +6,7 @@ import { breakpoints } from "@/Common/useMediaQuery";
 const TabContent = ({ curTab }) => {
     return (
         <TabContentStyled className="TabContent">
-            <div classNam="column1">
+            <div className="column1">
                 <img src={curTab.image} alt={curTab.title} />
             </div>
             <div className="column2">
