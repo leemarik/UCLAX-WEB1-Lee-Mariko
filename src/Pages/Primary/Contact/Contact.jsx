@@ -24,6 +24,9 @@ const Contact = () => {
         <ContactStyled className="Contact">
             <Inset>
                 <h1>Contact</h1>
+                <h6>
+                    Have a question? Leave your name, email, and message below!
+                </h6>
                 <Form getSubmissions={getSubmissions} />
                 <SubmissionList submissions={submissions} />
             </Inset>

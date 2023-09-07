@@ -95,7 +95,7 @@ const FormStyled = styled.form`
 
     input,
     textarea {
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px;
         width: 100%;
         background-color: #eee;
