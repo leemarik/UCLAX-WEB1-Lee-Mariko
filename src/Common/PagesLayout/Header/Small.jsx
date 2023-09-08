@@ -80,7 +80,7 @@ const SmallStyled = styled.div`
         right: 0px;
         bottom: 0px;
 
-        background-color: #004444;
+        background-color: #3b768f;
 
         a {
             display: block;
