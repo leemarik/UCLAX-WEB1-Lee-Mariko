@@ -1,16 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 /* Images ---------------------------*/
-import logoUrl from './crossfit-decimate-logo.png';
+import logoUrl from "./Yellow Golden Sunset Beach Club Badge Logo.png";
 
 const SiteLogo = () => {
     return (
-        <SiteLogoStyled className='SiteLogo'>
-            <img src={ logoUrl } alt='CrossFit Decimate Logo' />
+        <SiteLogoStyled className="SiteLogo">
+            <img src={logoUrl} alt="WaveRiders Academy Logo" />
         </SiteLogoStyled>
     );
-}
+};
 
 export default SiteLogo;
 

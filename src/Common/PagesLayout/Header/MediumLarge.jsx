@@ -35,15 +35,15 @@ const MediumLargeStyled = styled.div`
     color: white;
 
     .row {
-        display grid;
+        display: grid;
         grid-template-columns: 25% 75%;
 
-        .logo { }
+        .logo {
+        }
         .menus {
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
-
         }
     }
 

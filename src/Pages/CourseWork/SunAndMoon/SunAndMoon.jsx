@@ -1,14 +1,12 @@
-import{ useState } from 'react';
-import styled from 'styled-components';
+import { useState } from "react";
+import styled from "styled-components";
 
-import sunSrc from './images/sun.png'
-import moonSrc from './images/moon.png'
-
+import sunSrc from "./images/sun.png";
+import moonSrc from "./images/moon.png";
 
 const SunAndMoon = () => {
-
-    // JavaScript 
-    const[imgSrc, imgSrcUpdate] = useState(sunSrc);
+    // JavaScript
+    const [imgSrc, imgSrcUpdate] = useState(sunSrc);
 
     const changeToMoon = () => {
         //console.log('MOON');
@@ -17,7 +15,7 @@ const SunAndMoon = () => {
 
     const changeToSun = () => {
         //console.log('SUN');
-        imgSrcUpdate(sunSrc)
+        imgSrcUpdate(sunSrc);
     };
 
     // HTML
@@ -25,10 +23,10 @@ const SunAndMoon = () => {
         <SunAndMoonStyled>
             <h2>Sun And Moon</h2>
             <div className="sunMoonImage">
-                <img 
-                    src={imgSrc} 
-                    onMouseEnter={changeToMoon} 
-                    onMouseLeave={changeToSun} 
+                <img
+                    src={imgSrc}
+                    onMouseEnter={changeToMoon}
+                    onMouseLeave={changeToSun}
                 />
             </div>
         </SunAndMoonStyled>
@@ -37,22 +35,21 @@ const SunAndMoon = () => {
 
 export default SunAndMoon;
 
-
 // CSS: Styles
 const SunAndMoonStyled = styled.div`
     .sunMoonImage {
         text-align: center;
 
-        h2{
+        h2 {
             font-size: 50px;
-            color: teal;
+            color: #3b768f;
         }
 
-        img{
+        img {
             border: solid 20px teal;
             margin: 30px;
             padding: 20px;
-            background-color: #034242;
+            background-color: #3b768f;
         }
     }
 `;
