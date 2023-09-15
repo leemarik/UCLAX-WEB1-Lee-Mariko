@@ -1,12 +1,22 @@
 import styled from "styled-components";
 
+/* eReact Zoom :: 3rd Party Library -----------------------------*/
+import Zoom from "react-img-zoom";
+
 /* Components -----------------------------*/
 import StaffBio from "./StaffBio";
 
 const StaffMember = ({ member }) => {
     return (
         <StaffMemberStyled className="StaffMember">
-            <img src={member.image} alt={member.name} />
+            <div className="clipper">
+                <Zoom
+                    img={member.image}
+                    zoomScale={3}
+                    width={311}
+                    height={414}
+                />
+            </div>
             <h3>{member.name}</h3>
             <StaffBio member={member} />
         </StaffMemberStyled>
@@ -21,6 +31,10 @@ const StaffMemberStyled = styled.div`
     img {
         width: 100%;
         display: block;
+    }
+
+    .clipper {
+        overflow: hidden;
     }
 
     h3 {
